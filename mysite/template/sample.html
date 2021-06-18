@@ -6,5 +6,14 @@
 </head>
 <body>
 <p>Welcome to django project !</p>
+<input type="text" placeholder="Enter Your Name" name="Name" id="name" required>
+<button type="button" onclick="myFunction()">Click Here!</button>
 </body>
+<script>
+    function myFunction() {
+    var name=document.getElementById("name").value;
+
+    alert("Hello " + name);
+}
+</script>
 </html>
