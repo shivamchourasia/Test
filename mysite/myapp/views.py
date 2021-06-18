@@ -6,5 +6,5 @@ from django.http import HttpResponse
 
 def index(request):
 
-    return HttpResponse("Hello World!, Starting new project, checking changes")
+    return HttpResponse("Hello World!, Starting new project, checking changes, jenkins job")
     #return render(request, "sample.html")
